@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Eldritch Horror</title>
+</head>
+<body>
+    
+    <header>
+        <h1 class="main-heading">Выбери босса</h1>
+          <div class="header__wrapper">
+                  <div class="header__card">
+                      <img class="header__card_image" name = "cthulhu" src="assets/Ancients/Cthulthu.png" alt="Cthulhu">
+                  </div>
+                  <div class="header__card">
+                      <img class="header__card_image" name = "shubNiggurath" src="assets/Ancients/ShubNiggurath.png" alt="ShubNiggurath">
+                  </div>
+                  <div class="header__card">
+                      <img class="header__card_image" name = "iogSothoth" src="assets/Ancients/IogSothoth.png" alt="IogSothoth">
+                  </div>
+                  <div class="header__card">
+                      <img class="header__card_image" name = "azathoth" src="assets/Ancients/Azathoth.png" alt="Azathoth">
+                  </div>
+          </div>
+      </header>
+      <main>
+          <div class="wrapper">
+              <div class="difficulty hidden">
+                  <div class="difficulty_button" id = "medium">Средняя</div>
+          </div>
+              <div class="stages hidden">
+                  <div class="stage">I стадия</div>
+                  <div class="stage_cards">
+                      <div class="cards-amount green">0</div>
+                      <div class="cards-amount brown">0</div>
+                      <div class="cards-amount blue">0</div>
+                  </div>
+                  <div class="stage">II стадия</div>
+                  <div class="stage_cards">
+                      <div class="cards-amount green">0</div>
+                      <div class="cards-amount brown">0</div>
+                      <div class="cards-amount blue">0</div>
+                  </div>
+                  <div class="stage">III стадия</div>
+                  <div class="stage_cards">
+                      <div class="cards-amount green">0</div>
+                      <div class="cards-amount brown">0</div>
+                      <div class="cards-amount blue">0</div>
+                  </div>
+              </div>
+              <div class="shuffle hidden">Замешать колоду</div>
+              <div class="deck">
+                  <div class="shirt hidden">
+                      <img class="deck_image deck_image_shirt" src="./assets/mythicCardBackground.png" alt="shirt">
+                  </div>
+                  <div class="card hidden">
+                      <img class="deck_image card_image" src="./assets/mythicCardBackground.png" alt="card"> 
+                  </div>
+              </div>            
+          </div>
+      </main>
+      <script src="./script.js" type="module"></script>
+  </body>
+  </html>
