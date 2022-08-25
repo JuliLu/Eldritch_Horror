@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+* {
+ font-family: 'Amatic SC', cursive;
+ font-size: 26px;
+}
+
+body {
+    background-image: url(./assets/home.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100vh;
+    justify-content: space-between;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.main-heading{
+  color: white;
+  text-align: center;
+ letter-spacing:5px;
+  font-size: 30px;
+}
+.header__wrapper {
+  text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+}
+
+
+
+.header__card_image {
+    width: 70%;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+.header__card-active {
+    border: 2px solid red;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 99%;
+  text-align: center;
+}
+
+.difficulty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3%;
+    width: 10%;
+    margin-left: 33px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.difficulty_button {
+  background-color: rgba(157, 57, 135, 0.18);
+  border: 2px solid purple;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+}
+
+.difficulty_button-active {
+  background-color: red;
+}
+.stage{
+  color: white;
+  font-size: 35px;
+}
+.stages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 19%; 
+    
+}
+
+.stage_cards {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.cards-amount {
+    border-radius: 18px;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.green {
+    background-color: green;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.shuffle {
+    display: flex;
+    flex-direction: column;
+    width: 14%; 
+  background-color: rgba(157, 57, 135, 0.18);
+   border: solid 3px #6e0257;
+    border-radius: 6px;
+    height: fit-content;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+    font-weight: bold;
+  color: white;
+ 
+}
+
+.shuffle:hover {
+
+    color: black;
+    background-color: red;
+}
+
+.deck {
+    display: flex;
+    gap: 15px;
+    width: 40%; 
+    justify-content: center;
+}
+
+.shirt {
+    display: flex;
+    justify-content: right;
+}
+
+
+
+.card {
+    display: flex;
+    justify-content: left;
+}
+
+
+.deck_image {
+    width: 70%;
+}
+
+.deck_image_shirt {
+    border: 1px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+.deck_image_shirt:hover {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* .card_image {
+    transition: opacity 0.5s;
+    transition: visibility 0.5s;
+} */
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .empty {
+    color: red;
+  }
